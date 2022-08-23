@@ -1,0 +1,55 @@
+.backgroundpad{
+    height: 200vh;
+    background-color: #FFFFFF;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.backgroundpad>h3{
+    width: auto;
+height: 30px;
+position: absolute;
+left:10%;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 64px;
+/* identical to box height, or 133% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+}
+.topleft{
+    position: absolute;
+    padding: 0;
+width: auto;
+height: 45%;
+left: 10%;
+top: 10%;
+}
+.topright{
+    position: absolute;
+    padding: 0;
+width: 50%;
+height: auto;
+left: 35%;
+top: 10%;
+}
+.center{
+    position: absolute;
+    left: 35%;
+    top: 33%;
+    height: 22%;
+}
+.centerright{
+    position: absolute;
+    width: auto;
+height: 45%;
+top: 33%;
+left: 61%;
+
+}

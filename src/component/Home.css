@@ -1,5 +1,6 @@
 
 .background{
+    position: relative;
     height: 100vh;
     width: 100%;
     background-color: #11002C;
@@ -9,6 +10,43 @@
     background-repeat:   no-repeat;
     background-position: center center;  
 }
-/* .aboutUs{
+.Framediag{
+    position: absolute;
+    left:0;
+}
+.cont{
+    height: 50vh;
+    /* display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row; */
+    position: relative;
+}
+.img{
+    padding-left: 20%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+}
+.aboutUs{
+    padding-left: 10%;
+    position: absolute;
+    top: 50%;
+}
+.aboutUs >p{
+    color: blueviolet;
+} 
+.aboutUs>h1{
+    width: 540px;
+height: 100px;
 
-} */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 54px;
+line-height: 74px;
+/* or 137% */
+
+
+color: #FFFFFF;
+}
